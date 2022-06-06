@@ -1,0 +1,8 @@
+proc foo(x) {
+  set x, 42;
+}
+
+new x;
+set x, 7;
+call foo(x);
+print x;
