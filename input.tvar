@@ -1,0 +1,11 @@
+new x;
+set x, 42;
+new y;
+set y, x;
+undef x;
+print y;
+if ($0) {
+new y;
+} else {
+new y;
+}
